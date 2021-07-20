@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Cuentos Para Leer"
+        android:textSize="35sp"
+        android:gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="703dp"
+        android:orientation="vertical">
+
+        <fragment
+            android:id="@+id/primer_fragmento"
+            android:name="com.example.appcuento.frangmentA"
+            android:layout_width="match_parent"
+            android:layout_height="118dp"
+            android:layout_marginBottom="10sp"
+
+            />
+
+        <fragment
+            android:id="@+id/segundo_fragmento"
+            android:name="com.example.appcuento.frangmentA"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="10sp" />
+
+        <fragment
+            android:id="@+id/tercer_fragmento"
+            android:name="com.example.appcuento.frangmentA"
+            android:layout_width="match_parent"
+            android:layout_height="118dp"
+            android:layout_marginBottom="10sp" />
+        <fragment
+                android:id="@+id/cuarto_fragmento"
+                android:name="com.example.appcuento.frangmentA"
+                android:layout_width="match_parent"
+                android:layout_height="143dp"
+                android:layout_marginBottom="10sp" />
+
+        <fragment
+            android:id="@+id/quinto_fragmento"
+            android:name="com.example.appcuento.frangmentA"
+            android:layout_width="match_parent"
+            android:layout_height="188dp"
+            android:layout_marginBottom="10sp" />
+
+    </LinearLayout>
+</LinearLayout>
+
+
+
